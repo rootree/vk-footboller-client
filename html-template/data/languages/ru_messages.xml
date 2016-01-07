@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+    <message name="HELLO" value="Приветствуем вас в нашей игре !!! ура товарищи!!!" />
+
+    <!-- titles -->
+    <message name="TITLE_ERROR" value="Ошибка" />
+    <message name="TITLE_WARNING" value="Предупреждение" />
+    <message name="TITLE_ATTENTION" value="Внимание" />
+
+    <!-- errors-->
+    <message name="ERROR_AUTH_KEY" value="Неверный ключ авторизации." />
+    <message name="ERROR_SERVER" value="Произошла ошибка при сохранении данных. Действие было отменено." />
+    <message name="ERROR_SOCIAL_API" value="Ошибка при работе с API на стороне социальной сети" />
+    <message name="ERROR_SOCIAL" value="Произошла ошибка при обращении к социальной сети." />
+    <message name="ERROR_HACKING_ATTEMPT" value="Выявлена попытка взлома. Действие было отменено." />
+    <message name="ERROR_AUTH_KEY" value="Неверный ключ авторизации." />
+    <message name="CONNECTION_ERROR" value="Игра потеряла соединение с сервером. Пожалуйста, обновите страницу." />
+
+    
+</dictionary>

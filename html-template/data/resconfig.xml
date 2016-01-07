@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources> 
+  
+    <library path="interfaces/mainMenu.swf" lastupdate="1296566327">
+        <resource className="MainMenu"/>
+    </library>
+	
+    <library path="interfaces/commonInterfaces.swf" lastupdate="1300400946">
+        <resource className="NotEnoughMoneyDialog"/> 
+        <resource className="HintPanel"/> 
+        <resource className="FootballerAdd"/> 
+        <resource className="TeamHint"/> 
+        <resource className="LoadingMessage"/> 
+        <resource className="LoadingImg"/> 
+        <resource className="Qtip"/> 
+        <resource className="SelectStudyCount"/> 
+        <resource className="MsgSuperBox"/> 
+        <resource className="ChooseMoneyForBayTour"/> 
+        <resource className="ChooseMoneyForBay"/> 
+        <resource className="FootbellerSettings"/> 
+        <resource className="ShopHint"/> 
+        <resource className="MsgBox"/> 
+        <resource className="itemHint"/> 
+        <resource className="BankPanel"/> 
+        <resource className="TourMessageFight"/> 
+        <resource className="NewLevelMessage"/>
+        <resource className="WinTourMessage"/>  
+        <resource className="NewsPanel"/>  
+        <resource className="ProcessingGame"/>  
+        <resource className="RatingWindow"/>  
+        <resource className="ResultPanel"/>  
+        <resource className="ChampionnasPanel"/>  
+        <resource className="SellStadiumWindow"/>  
+        <resource className="ShopPanel"/>  
+        <resource className="StadiumWindow"/>   
+        <resource className="TourIIIResult"/>  
+        <resource className="TourMessage"/>  
+        <resource className="TuerIII"/>  
+        <resource className="UserTeamPanel"/>  
+        <resource className="WelcomeScreen"/>  
+        <resource className="FootbellerSettings"/>  
+        <resource className="FriendTeam"/>  
+        <resource className="CustomTeam"/> 
+        <resource className="SponsorsPanel"/>  
+        <resource className="SelectionGame"/>   
+        <resource className="Question"/>   
+        <resource className="FightStep"/>   
+    </library>
+	
+	<library path="interfaces/TourGroups.swf" lastupdate="1296565338">
+        <resource className="TourGroups"/>
+    </library>   
+	<library path="interfaces/SponsorsPanel.swf" lastupdate="1296564902">
+        <resource className="SponsorsPanel"/>
+    </library>  
+	<library path="interfaces/SelectionGame.swf" lastupdate="1296564951">
+        <resource className="SelectionGame"/>   
+    </library>
+ 
+ 
+    <library path="interfaces/sound.swf" lastupdate="1272192793">
+        <resource className="ButtonClick"/>
+        <resource className="CloseWindow"/>
+        <resource className="CrowdAmbience"/>
+        <resource className="LevelUp"/>
+        <resource className="BGSound"/>
+        <resource className="MouseOver"/>
+        <resource className="PlayerLoose"/>
+        <resource className="PlayerWin"/>
+    </library>
+ 
+</resources>

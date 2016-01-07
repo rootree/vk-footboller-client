@@ -1,0 +1,6 @@
+ 
+Options -Indexes
+  
+<Files crossdomain.xml>
+	ForceType text/x-cross-domain-policy
+</Files> 

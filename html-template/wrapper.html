@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">	
+    <!-- 
+    Smart developers always View Source. 
+    
+    This application was built using Adobe Flex, an open source framework
+    for building rich Internet applications that get delivered via the
+    Flash Player or to desktops via Adobe AIR. 
+    
+    Learn more about Flex at http://flex.org 
+    // -->
+    <head>
+        <title></title>         
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- Include CSS to eliminate any default margins/padding and set the height of the html element and 
+		     the body element to 100%, because Firefox, or any Gecko based browser, interprets percentage as 
+			 the percentage of the height of its parent container, which has to be set explicitly.  Initially, 
+			 don't display flashContent div so it won't show if JavaScript disabled.  123
+		-->
+        <style type="text/css" media="screen"> 
+			html, body	{ height:100%; }
+			body { margin:0; padding:0; overflow:auto; text-align:center; }   
+			#flashContent { display:none; }
+        </style>
+		
+		<!-- Enable Browser History by replacing useBrowserHistory tokens with two hyphens -->
+        <!-- BEGIN Browser History required section -->
+        <link rel="stylesheet" type="text/css" href="history/history.css" />
+        <script type="text/javascript" src="history/history.js"></script>
+        <!-- END Browser History required section -->  
+		    
+        <script type="text/javascript" src="swfobject.js"></script>
+        <script type="text/javascript">
+            <!-- For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. --> 
+            var swfVersionStr = "9.0.0";
+            <!-- To use express install, set to playerProductInstall.swf, otherwise the empty string. -->
+            var xiSwfUrlStr = "playerProductInstall.swf";
+            //var flashvars = {"api_url":"http:\/\/api.vkontakte.ru\/api.php","api_id":1693386,"api_settings":287,"viewer_id":"6203166","viewer_type":2,"user_id":6203166,"group_id":0,"is_app_user":1,"auth_key":"f08c3eea55970aa00346b86d261d5096","language":0,"parent_language":0,"referrer":"menu","lc_name":"b77a23d3"}
+            //var flashvars = {"api_url":"http:\/\/api.vkontakte.ru\/api.php","api_id":1862786,"api_settings":287,"viewer_id":"4778426","viewer_type":2,"user_id":4778426,"group_id":0,"is_app_user":1,"auth_key":"db67672ffed2c96e1417bb4ddcf152d2","language":0,"parent_language":0,"referrer":"menu","api_result":"{%22response%22:[{%22uid%22:4778426,%22first_name%22:%22Иван%22,%22last_name%22:%22Чура%22}]}","lc_name":"a7a27afe"};
+            var flashvars =
+            {"api_url":"http:\/\/api.vkontakte.ru\/api.php","api_id":2014049,"api_settings":263,"viewer_id":100206819,"viewer_type":0,"sid":"82a0ac278aac78507eb5c8d2ea0005aafd129616f6751c90ebc05c1669","secret":"d053fe5184","user_id":0,"group_id":33,"is_app_user":1,"auth_key":"809801cdee1b4851079c9e371c852080","language":0,"parent_language":0,"api_result":"{%22response%22:[{%22uid%22:100206819,%22first_name%22:%22Ivan%22,%22last_name%22:%22Chu%22}]}","domain":"vkontakte.ru","scale":1,"width":"745","height":"590","swf_url":"http:\/\/cs5085.vkontakte.ru\/u100206819\/4996cf585c93fb.zip","debug":0};
+            
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#00A600";
+            params.allowscriptaccess = "sameDomain";
+            params.allowfullscreen = "true";
+            var attributes = {};
+            attributes.id = "client";
+            attributes.name = "client";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                "client.swf", "flashContent",
+                "745", "651",
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);
+			<!-- JavaScript enabled so display the flashContent div in case it is not replaced with a swf object. -->
+			swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+        </script>
+    </head>
+    <body>
+        <!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough 
+			 JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
+			 when JavaScript is disabled.
+		-->
+        <div id="flashContent">
+        	<p>
+	        	To view this page ensure that Adobe Flash Player version 
+				10.0.0 or greater is installed. 
+			</p>
+			<a href="http://www.adobe.com/go/getflashplayer">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+			</a>
+        </div>
+	   	                             
+       	<noscript>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="745" height="651" id="Sinners">
+                <param name="movie" value="client.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="#00A600" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="true" />
+                <!--[if !IE]>
+                <object type="application/x-shockwave-flash" data="client.swf" width="607" height="651">
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#00A600" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowFullScreen" value="true" />
+                <![endif]-->
+                <!--[if gte IE 6]>
+                	<p> 
+                		Either scripts and active content are not permitted to run or Adobe Flash Player version
+                		10.0.0 or greater is not installed.
+                	</p>
+                <![endif]-->
+                    <a href="http://www.adobe.com/go/getflashplayer">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+                    </a>
+                <!--[if !IE]>
+                </object>
+                <![endif]-->
+            </object>
+	    </noscript>		
+   </body>
+</html>

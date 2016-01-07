@@ -1,2 +1,2 @@
 # vk-footboller-client
-VK Footballer cleint
+Action Script client for VK Footballer.
